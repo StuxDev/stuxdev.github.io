@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://global.media.stux.dev/logo.png" height="100" alt="Stux.Dev Logo">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.dev/logo-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.dev/logo-dark.png"><img src="https://global.media.stux.dev/logo-dark.png" height="100" alt="Stux.Dev Logo"></picture>
 </p>
 
-# GitHub Pages Redirect
+# Stux.Dev GitHub Pages Redirect
 
 A simple template for redirecting your GitHub Pages site (username.github.io) to your custom domain.
 
@@ -11,7 +11,6 @@ A simple template for redirecting your GitHub Pages site (username.github.io) to
 - ✨ Lightweight and fast redirect solution
 - 🎯 Easy to set up in minutes
 - 📱 Works on all devices and browsers
-- 🔗 Preserves URL paths during redirect
 
 ## Quick Start
 
@@ -40,13 +39,13 @@ This template uses a simple HTML meta refresh to redirect visitors from your Git
 
 ## Configuration
 
-Edit `index.html` and change this line:
+Edit these two lines in `index.html` (this repository's copy sends `stuxdev.github.io` to Stux.Dev's GitHub profile):
 ```html
-<meta http-equiv="refresh" content="0;url=https://example.com" />
-<link rel="canonical" href="https://example.com" />
+<meta http-equiv="refresh" content="0;url=https://github.com/StuxDev" />
+<link rel="canonical" href="https://github.com/StuxDev" />
 ```
 
-Replace `https://example.com` with your actual domain.
+Replace `https://github.com/StuxDev` with your actual domain. Every visitor lands on that one URL; the path they asked for isn't carried over.
 
 ## Troubleshooting
 
@@ -60,7 +59,7 @@ This project uses [Date Versioning](https://datevers.ing): each release is numbe
 
 ## License
 
-Feel free to use this template for your own projects!
+Feel free to use this template for your own projects! Copyright © 2026 Stux.Group.
 
 ## Support
 
@@ -68,6 +67,5 @@ Have questions? Check the [GitHub Pages documentation](https://pages.github.com/
 
 ---
 
-Made by [Stux.Dev](https://github.com/StuxDev)
-
-*Stux.Dev is part of the [Stux.Group](https://github.com/StuxGroup) Brand of Companies.*
+*Built & Maintained by <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.dev/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.dev/icon-dark.png"><img src="https://global.media.stux.dev/icon-dark.png" height="14" alt="Stux.Dev" valign="middle"></picture> [Stux.Dev](https://github.com/StuxDev).  
+Stux.Dev is a part of the <picture><source media="(prefers-color-scheme: dark)" srcset="https://global.media.stux.group/icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://global.media.stux.group/icon-dark.png"><img src="https://global.media.stux.group/icon-dark.png" height="14" alt="Stux.Group" valign="middle"></picture> Stux.Group Brand of Companies.*
