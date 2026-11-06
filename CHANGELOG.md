@@ -1,9 +1,20 @@
 # Changelog
 
-All notable changes to stuxdev.github.io are documented here.
+All notable changes to Stux.Dev GitHub Pages Redirect (stuxdev.github.io) are documented here.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+Each release's sections come in this order: Added, Changed, Fixed, Removed, Security, Deprecated. This project uses [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## v26.11.06
+
+### Changed
+
+- The README and CONTRIBUTING call this template by its full name, Stux.Dev GitHub Pages Redirect, as services.stux.dev
+  does, and their logos follow GitHub's light or dark theme.
+- The README's Configuration section shows the lines actually in `index.html` (which redirect to github.com/StuxDev),
+  and says the visitor's path isn't carried over. The feature list no longer claims it is.
+- The README's footer matches the other Stux.Dev repositories, and its License section gives the copyright holder,
+  Stux.Group.
+- This changelog's intro gives the house section order instead of citing Keep a Changelog, whose order differs.
 
 ## v26.10.23
 
